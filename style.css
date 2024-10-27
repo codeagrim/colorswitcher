@@ -1,0 +1,63 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.boxes{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.box{
+    width: 10px;
+    height: 10px;
+    padding: 50px;
+    margin: 10px;
+    border: 2px solid white;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#green{
+    background-color: green;
+}
+
+.text{
+    text-align: center;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    align-items: end;
+}
+.btn button{
+    width: 90px;
+    height: 33px;
+    background-color: #ffe821;
+    border-radius: 15px;
+    border: 2px solid black;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+#randbtn{
+    width: 150px;
+}
